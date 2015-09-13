@@ -2,5 +2,111 @@
 
 gris = rgb(200,200,200)
 
+body, nav, ul, li, a, h1
+	margin 0
+	padding 0
+	
 body
 	background gris
+	overflow-x hidden
+	font-family Arial
+
+nav ul li
+	display inline-block
+	padding 1rem
+	font-size 1.5rem
+
+.ham
+	display none
+
+nav ul
+	cursor pointer
+	text-align right
+	
+
+	
+.white
+	background-color white
+	
+	ul li:hover
+		background-color black
+		color white
+		transition .8s
+		
+
+.black
+	background-color black
+	color white
+	
+	ul li:hover
+		background-color white
+		color black
+		transition .8s
+
+.top
+	position fixed
+	top 0
+	width 100vw
+
+.bottom
+	position fixed
+	bottom 0
+	width 100vw
+	
+	ul
+		text-align center
+
+.left
+	position fixed
+	left 0
+	height 100vh
+	
+	ul li
+		display block
+		text-align center
+		
+.right
+	position fixed
+	right 0
+	height 100vh
+	
+	ul li
+		display block
+		text-align center
+
+.show
+	display block
+
+.hide
+	display none
+		
+
+@media screen and (max-width:768px)
+	.item
+		list-style-type none
+		display none
+	
+	.ham
+		display block
+		font-size 2rem
+		padding 1rem
+	
+	.left ul li
+		display none
+		font-size 1.5rem
+	
+	.right ul li
+		display none
+		font-size 1.5rem
+		
+	.right .ham
+		text-align center
+	
+	.left .ham
+		text-align center
+		
+@media screen and (min-width:768px)
+	.item
+		display inline-block
+
+	
