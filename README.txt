@@ -49,5 +49,7 @@ b) Color del menu
 
 .black
 .white
+.blue
+.red
 
 
