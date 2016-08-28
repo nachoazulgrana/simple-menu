@@ -9,7 +9,7 @@ https://github.com/nachoazulgrana/simple-menu/archive/master.zip
 2.
 Linkear hoja de estilos dentro de la etiqueta <head>
 
-<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/simple-menu.css">
 
 3.
 Cargar librería jQuery dentro de la etiqueta <head>
@@ -19,7 +19,7 @@ Cargar librería jQuery dentro de la etiqueta <head>
 4.
 Antes de cerrar el </body> cargar el archivos .js que permite la función de mostrar el menu en responsive.
 
-<script src="./js/main.js"></script>
+<script src="./js/simple-menu.js"></script>
 
 5. Pegar el siguiente Menú dentro del body y reemplazar el nombre dentro de cada elemento <li> por el deseado.
 
